@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(90deg, #5b83c3, #945bc3);
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    font-weight: bold;
+}
+
+header {
+    font-size: 1.3rem;
+}
+
+#greet, #presentation {
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

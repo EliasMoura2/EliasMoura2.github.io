@@ -17,7 +17,7 @@
     <header>
         <h1 id="greet"><strong>Bienvenido!</strong></h1>
         <p id="presentation" class="col user-select-none">
-            Me llamo Moura Elias, soy desarrollador javascript junior y estudiante de ingenieria 
+            Me llamo Elias Moura, soy desarrollador javascript junior y estudiante de ingenieria 
             en informatica.<br>
             Actualmente trabajo en la Escuela de Robotica de la 
             Provincia de Misiones, Argentina. <br>

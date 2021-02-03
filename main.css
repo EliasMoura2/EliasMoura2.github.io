@@ -16,9 +16,43 @@ header {
     font-size: 1.3rem;
 }
 
-#greet, #presentation {
-    min-height: 10vh;
-    display: flex;
+#greet {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#presentation {
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    text-align: justify;
+    color: black;
+    /* background-image: linear-gradient(90deg, #5b83c3, #945bc3); */
+    padding: 20px;
+}
+
+/* .card #presentation {
+    border: none;
+} */
+
+.buttons {
+    width: 100%;
+}
+
+a img {
+    width: 30px;
+    height: 30px;
+}
+
+.heroku {
+    background-color: #6762A6;
+}
+
+/* .github{
+    background-color: #ffffff;
+} */
+
+.card-text.text-body {
+    height: 100px;
+    text-overflow: ellipsis;
 }

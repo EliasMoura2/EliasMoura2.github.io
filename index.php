@@ -21,7 +21,7 @@
                 <div class="card-body " id='presentation'>
                     <p class="card-text">
                         Hola soy Elias, soy Desarrollador de Software Junior y estudiante de ingeniería en Informática, con especialidad en el desarrollo de software.<br>
-                        En el último año he formado parte del equipo de desarrollo de la Escuela de Robótica en el cual realicé tareas como backend developer (Node.js / Express.js) en proyectos en el stack MEAN.
+                        En el último año he formado parte del equipo de desarrollo de la Escuela de Robótica en el cual realicé tareas como backend developer (Node.js / Express.js) en proyectos en el stack MERN.
                     </p>
                     
                 </div>

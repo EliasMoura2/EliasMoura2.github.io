@@ -14,140 +14,170 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
+  <div class="container-fluid">
     <header>
-        <h1 id="greet"><strong>Bienvenido!</strong></h1>
-        <div class="col-lg-12 p-lg-4 p-md-3 p-sm-3">
-            <div class="card p-lg-3 p-md-3 p-sm-3">
-                <div class="card-body " id='presentation'>
-                    <p class="card-text">
-                        Hola me llammo Elias y soy Desarrollador Web Junior.<br>
-                        En el último año he formado parte de un equipo de desarrollo en el cual realicé tareas como backend developer (Node.js / Express.js) en proyectos en el stack MEAN.
-                    </p>
-                    
-                </div>
+      <h1 id="greet"><strong>Bienvenido!</strong></h1>
+      <h4 id="greet"><strong>Portfolio en construcci&oacute;n</strong></h4>
+      <div class="col-lg-12 p-lg-4 p-md-3 p-sm-3">
+        <div class="card p-lg-3 p-md-3 p-sm-3">
+          <h5 class="card-title">Sobre mi:</h5>
+          <div class="card-body " id='presentation'>
+            <p class="card-text">
+              Hola me llamo Elias y soy Desarrollador Web Junior.<br>
+              En el último año (2020) he formado parte de un equipo de desarrollo en el c&uacute;al realicé tareas como backend developer (Node.js / Express.js) en proyectos sobre el stack MERN.<br>
+              Realice tareas para el desarrollo de aplicaciones web y API's RESTful, con Node.js, Express.js y TypeORM, que implicaron realizar:<br>
+              - Authenticacion con passport.js y JWT. <br>
+              - Conexion a bases de datos relicionales (MySQL) utilizando TypeORM y no relacionales (MongoDB) utilizando mongoose. <br>
+              - Subida de archivos con multer. <br>
+              - Env&iacute;o de emails con nodemailer. <br>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-12 p-lg-4 p-md-3 p-sm-3">
+        <div class="card p-lg-3 p-md-3 p-sm-3">
+          <div class="card-body " id='presentation'>
+            <h5 class="card-title">Habilidades:</h5>
+            <div class="skills">
+                <img src="./assets/img/html_original_72.png" alt="" srcset="">
+                <img src="./assets/img/css_original_72.png" alt="" srcset="">
+                <img src="./assets/img/javascript_icon_72.png" alt="" srcset="">
+                <img src="./assets/img/nodejs_original_72.png" alt="" srcset="" id="node">
+                <img src="./assets/img/typeorm.png" alt="" srcset="" id="typeorm">
+                <img src="./assets/img/Postman.png" alt="" srcset="">
+                <img src="./assets/img/mysql_original_72.png" alt="" srcset="" id="mysql">
+                <img src="./assets/img/mongodb_original_72.png" alt="" srcset="" id="mongo">
+                <img src="./assets/img/git_original_72.png" alt="" srcset="" id="git">
+                <img src="./assets/img/github_original_72.png" alt="" srcset="">
+                <img src="./assets/img/react_original_72.png" alt="" srcset="" id="react">
+                <img src="./assets/img/linux_mint_72.png" alt="" srcset="" id="mint">
             </div>
+          </div>
         </div>
-        <!-- <p id="presentation" class="col user-select-none">
-            Hola soy Elias, soy Desarrollador de Software Junior y estudiante de ingeniería en Informática, con especialidad en el desarrollo de software.<br>
-            En el último año he formado parte del equipo de desarrollo de la Escuela de Robótica en el cual realicé tareas como backend developer (Node.js / Express.js) en proyectos en el stack MEAN.<br>
-        </p> -->
+      </div>
+      <!-- <p id="presentation" class="col user-select-none">
+          Hola soy Elias, soy Desarrollador de Software Junior y estudiante de ingeniería en Informática, con especialidad en el desarrollo de software.<br>
+          En el último año he formado parte del equipo de desarrollo de la Escuela de Robótica en el cual realicé tareas como backend developer (Node.js / Express.js) en proyectos en el stack MEAN.<br>
+      </p> -->
     </header>
-  <!-- <nav>
-    <ul>
-        <li>Home</li>
-          form-group row
-    </ul>
-  </nav> -->
+    <!-- <nav>
+      <ul>
+          <li>Home</li>
+            form-group row
+      </ul>
+    </nav> -->
 
-  <div class="container-fluid shadow-lg p-3 m-lg-1 rounded">
-    <div class="row justify-content-center projects">
-      <h1><strong>Proyectos</strong></h1>
+    <div class="container-fluid shadow-lg p-3 m-lg-1 rounded">
+      <div class="row justify-content-center projects">
+        <h1><strong>Mis Proyectos</strong></h1>
+      </div>
+      <hr class="my-3">
+      <div class="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-4">
+        <div class="col-lg-3 col-md-6 p-lg-3 p-md-3 p-sm-3 pb-2">
+          <div class="card" ">
+            <img src="./assets/img/HTML-CSS-JS-MONGO-NODE.png" class="card-img-top" style="" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-body"><strong>Login App</strong></h5>
+              <p class="card-text text-body"><strong>Proyecto CRUD de tareas con autenticacion utilizando Passport.js </strong></p>
+              <a href="https://node-passportjs.herokuapp.com/" class="btn btn-primary btn-lg btn-block heroku" target="_blank" ><img src="./assets/img/heroku_logo_icon_168126.svg" alt=""></a>
+              <a href="https://github.com/EliasMoura2/node-passport" class="btn btn-primary btn-lg btn-block github" target="_blank"><img src="./assets/img/logo_github_icon_160827.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 p-lg-3 p-md-3 p-sm-3 pb-2">
+          <div class="card" ">
+            <img src="./assets/img/HTML-CSS-JS-MONGO-NODE.png" class="card-img-top" style="" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-body"><strong>Books App</strong></h5>
+              <p class="card-text text-body"><strong>Proyecto CRUD de libros, utilizando HTML, CSS, Boostrap, JS, Node.js y MongoDB </strong></p>
+              <a href="https://books-full-js.herokuapp.com/" class="btn btn-primary btn-lg btn-block heroku" target="_blank" ><img src="./assets/img/heroku_logo_icon_168126.svg" alt=""></a>
+              <a href="https://github.com/EliasMoura2/CRUD-Books" class="btn btn-primary btn-lg btn-block github" target="_blank"><img src="./assets/img/logo_github_icon_160827.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 p-lg-3 p-md-3 p-sm-3 pb-2">
+          <div class="card" ">
+            <img src="./assets/img/HTML-CSS-JS-MONGO-NODE.png" class="card-img-top" style="" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-body"><strong>Tasks App</strong></h5>
+              <p class="card-text text-body"><strong>Proyecto CRUD de tareas utilizando HTML, CSS, Boostrap, JS, Node.js y MongoDB</strong></p>
+              <a href="https://app-tasks-node.herokuapp.com/" class="btn btn-primary btn-lg btn-block heroku target="_blank"" ><img src="./assets/img/heroku_logo_icon_168126.svg" alt=""></a>
+              <a href="https://github.com/EliasMoura2/app-tasks" class="btn btn-primary btn-lg btn-block github target="_blank""><img src="./assets/img/logo_github_icon_160827.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 p-lg-3 p-md-3 p-sm-3 pb-2">
+          <div class="card";">
+            <img src="./assets/img/HTML-CSS-JS.png" class="card-img-top" style="" alt="stack javascript html css">
+            <div class="card-body">
+              <h5 class="card-title text-body"><strong>Pokedex</strong></h5>
+              <p class="card-text text-body"><strong>Proyecto utilizando HTML, CSS, Javascript. Consumiendo la api de Pokemon.</strong></p>
+              <div class="buttons"></div>
+              <a href="https://pokedex-vanillajs.herokuapp.com/" class="btn btn-primary btn-lg btn-block heroku" target="_blank" ><img src="./assets/img/heroku_logo_icon_168126.svg" alt=""></a>
+              <a href="https://github.com/EliasMoura2/basicPokedex" class="btn btn-primary btn-lg btn-block github" target="_blank"><img src="./assets/img/logo_github_icon_160827.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 p-lg-3 p-md-3 p-sm-3 pb-2">
+          <div class="card"">
+            <img src="./assets/img/HTML-CSS-JS.png" class="card-img-top" style="" alt="stack javascript html css">
+            <div class="card-body">
+              <h5 class="card-title text-body"><strong>Todo List</strong></h5>
+              <p class="card-text text-body"><strong>Proyecto Todo list desarrollado con HTML, CSS, Javascript y localSorage.</strong></p>
+              <a href="https://todo-basic-js-localstorage.herokuapp.com/" class="btn btn-primary btn-lg btn-block heroku" target="_blank"><img src="./assets/img/heroku_logo_icon_168126.svg" alt=""></a>
+              <a href="https://github.com/EliasMoura2/todoList-vanillaJS-LocalStorage" class="btn btn-primary btn-lg btn-block github" target="_blank"><img src="./assets/img/logo_github_icon_160827.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-4">
+        <div class="col-lg-3 col-md-6 p-lg-3 p-md-3 p-sm-3 pb-2">
+          <div class="card" ">
+            <img src="./assets/img/HTML-CSS-JS-MONGO-NODE.png" class="card-img-top" style="" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-body"><strong>Todo List</strong></h5>
+              <p class="card-text text-body"><strong>proyecto Todo list con HTML, CSS y Javascript</strong></p>
+              <a href="https://todo-basic-js-localstorage.herokuapp.com/" class="btn btn-primary btn-lg btn-block text-body"><strong>VER</strong></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 p-lg-3 p-md-3 p-sm-3 pb-2">
+          <div class="card" ">
+            <img src="./assets/img/HTML-CSS-JS-MONGO-NODE.png" class="card-img-top" style="" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-body"><strong>Books App</strong></h5>
+              <p class="card-text text-body"><strong>proyecto A list con HTML, CSS y Javascript</strong></p>
+              <a href="https://todo-basic-js-localstorage.herokuapp.com/" class="btn btn-primary btn-lg btn-block text-body"><strong>VER</strong></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 p-lg-3 p-md-3 p-sm-3 pb-2">
+          <div class="card";">
+            <img src="./assets/img/HTML-CSS-JS.png" class="card-img-top" style="" alt="stack javascript html css">
+            <div class="card-body">
+              <h5 class="card-title text-body"><strong>Pokedex</strong></h5>
+              <p class="card-text text-body"><strong>proyecto utilizando HTML, CSS, Javascript. Utilizando la api de Pokemon</strong></p>
+              <a href="https://pokedex-vanillajs.herokuapp.com/" class="btn btn-primary btn-lg btn-block text-body"><strong>VER</strong></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 p-lg-3 p-md-3 p-sm-3 pb-2">
+          <div class="card"">
+            <img src="./assets/img/HTML-CSS-JS.png" class="card-img-top" style="" alt="stack javascript html css">
+            <div class="card-body">
+              <h5 class="card-title text-body"><strong>Todo List</strong></h5>
+              <p class="card-text text-body"><strong>Proyecto Todo list con HTML, CSS, Javascript y localSorage</strong></p>
+              <a href="https://todo-basic-js-localstorage.herokuapp.com/" class="btn btn-primary btn-lg btn-block text-body"><strong>VER</strong></a>
+            </div>
+          </div>
+        </div>
+      </div> -->
     </div>
-    <hr class="my-3">
-    <div class="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-4">
-      <div class="col-lg-3 col-md-6 p-lg-3 p-md-3 p-sm-3 pb-2">
-        <div class="card" ">
-          <img src="./assets/img/HTML-CSS-JS-MONGO-NODE.png" class="card-img-top" style="" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-body"><strong>Login App</strong></h5>
-            <p class="card-text text-body"><strong>Proyecto CRUD de tareas con autenticacion utilizando Passport.js </strong></p>
-            <a href="https://node-passportjs.herokuapp.com/" class="btn btn-primary btn-lg btn-block heroku" target="_blank" ><img src="./assets/img/heroku_logo_icon_168126.svg" alt=""></a>
-            <a href="https://github.com/EliasMoura2/node-passport" class="btn btn-primary btn-lg btn-block github" target="_blank"><img src="./assets/img/logo_github_icon_160827.svg" alt=""></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 p-lg-3 p-md-3 p-sm-3 pb-2">
-        <div class="card" ">
-          <img src="./assets/img/HTML-CSS-JS-MONGO-NODE.png" class="card-img-top" style="" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-body"><strong>Books App</strong></h5>
-            <p class="card-text text-body"><strong>Proyecto CRUD de libros, utilizando HTML, CSS, Boostrap, JS, Node.js y MongoDB </strong></p>
-            <a href="https://books-full-js.herokuapp.com/" class="btn btn-primary btn-lg btn-block heroku" target="_blank" ><img src="./assets/img/heroku_logo_icon_168126.svg" alt=""></a>
-            <a href="https://github.com/EliasMoura2/CRUD-Books" class="btn btn-primary btn-lg btn-block github" target="_blank"><img src="./assets/img/logo_github_icon_160827.svg" alt=""></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 p-lg-3 p-md-3 p-sm-3 pb-2">
-        <div class="card" ">
-          <img src="./assets/img/HTML-CSS-JS-MONGO-NODE.png" class="card-img-top" style="" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-body"><strong>Tasks App</strong></h5>
-            <p class="card-text text-body"><strong>Proyecto CRUD de tareas utilizando HTML, CSS, Boostrap, JS, Node.js y MongoDB</strong></p>
-            <a href="https://app-tasks-node.herokuapp.com/" class="btn btn-primary btn-lg btn-block heroku target="_blank"" ><img src="./assets/img/heroku_logo_icon_168126.svg" alt=""></a>
-            <a href="https://github.com/EliasMoura2/app-tasks" class="btn btn-primary btn-lg btn-block github target="_blank""><img src="./assets/img/logo_github_icon_160827.svg" alt=""></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 p-lg-3 p-md-3 p-sm-3 pb-2">
-        <div class="card";">
-          <img src="./assets/img/HTML-CSS-JS.png" class="card-img-top" style="" alt="stack javascript html css">
-          <div class="card-body">
-            <h5 class="card-title text-body"><strong>Pokedex</strong></h5>
-            <p class="card-text text-body"><strong>Proyecto utilizando HTML, CSS, Javascript. Consumiendo la api de Pokemon.</strong></p>
-            <div class="buttons"></div>
-            <a href="https://pokedex-vanillajs.herokuapp.com/" class="btn btn-primary btn-lg btn-block heroku" target="_blank" ><img src="./assets/img/heroku_logo_icon_168126.svg" alt=""></a>
-            <a href="https://github.com/EliasMoura2/basicPokedex" class="btn btn-primary btn-lg btn-block github" target="_blank"><img src="./assets/img/logo_github_icon_160827.svg" alt=""></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 p-lg-3 p-md-3 p-sm-3 pb-2">
-        <div class="card"">
-          <img src="./assets/img/HTML-CSS-JS.png" class="card-img-top" style="" alt="stack javascript html css">
-          <div class="card-body">
-            <h5 class="card-title text-body"><strong>Todo List</strong></h5>
-            <p class="card-text text-body"><strong>Proyecto Todo list desarrollado con HTML, CSS, Javascript y localSorage.</strong></p>
-            <a href="https://todo-basic-js-localstorage.herokuapp.com/" class="btn btn-primary btn-lg btn-block heroku" target="_blank"><img src="./assets/img/heroku_logo_icon_168126.svg" alt=""></a>
-            <a href="https://github.com/EliasMoura2/todoList-vanillaJS-LocalStorage" class="btn btn-primary btn-lg btn-block github" target="_blank"><img src="./assets/img/logo_github_icon_160827.svg" alt=""></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- <div class="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-4">
-      <div class="col-lg-3 col-md-6 p-lg-3 p-md-3 p-sm-3 pb-2">
-        <div class="card" ">
-          <img src="./assets/img/HTML-CSS-JS-MONGO-NODE.png" class="card-img-top" style="" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-body"><strong>Todo List</strong></h5>
-            <p class="card-text text-body"><strong>proyecto Todo list con HTML, CSS y Javascript</strong></p>
-            <a href="https://todo-basic-js-localstorage.herokuapp.com/" class="btn btn-primary btn-lg btn-block text-body"><strong>VER</strong></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 p-lg-3 p-md-3 p-sm-3 pb-2">
-        <div class="card" ">
-          <img src="./assets/img/HTML-CSS-JS-MONGO-NODE.png" class="card-img-top" style="" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-body"><strong>Books App</strong></h5>
-            <p class="card-text text-body"><strong>proyecto A list con HTML, CSS y Javascript</strong></p>
-            <a href="https://todo-basic-js-localstorage.herokuapp.com/" class="btn btn-primary btn-lg btn-block text-body"><strong>VER</strong></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 p-lg-3 p-md-3 p-sm-3 pb-2">
-        <div class="card";">
-          <img src="./assets/img/HTML-CSS-JS.png" class="card-img-top" style="" alt="stack javascript html css">
-          <div class="card-body">
-            <h5 class="card-title text-body"><strong>Pokedex</strong></h5>
-            <p class="card-text text-body"><strong>proyecto utilizando HTML, CSS, Javascript. Utilizando la api de Pokemon</strong></p>
-            <a href="https://pokedex-vanillajs.herokuapp.com/" class="btn btn-primary btn-lg btn-block text-body"><strong>VER</strong></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 p-lg-3 p-md-3 p-sm-3 pb-2">
-        <div class="card"">
-          <img src="./assets/img/HTML-CSS-JS.png" class="card-img-top" style="" alt="stack javascript html css">
-          <div class="card-body">
-            <h5 class="card-title text-body"><strong>Todo List</strong></h5>
-            <p class="card-text text-body"><strong>Proyecto Todo list con HTML, CSS, Javascript y localSorage</strong></p>
-            <a href="https://todo-basic-js-localstorage.herokuapp.com/" class="btn btn-primary btn-lg btn-block text-body"><strong>VER</strong></a>
-          </div>
-        </div>
-      </div>
-    </div> -->
+
+    <footer>
+
+    </footer>
   </div>
-
-  <footer>
-
-  </footer>
 </body>
 </html>
